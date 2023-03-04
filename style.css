@@ -1,0 +1,124 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.header {
+  display: block;
+}
+
+.parent {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.hero_img {
+  margin-right: 100;
+  boarder-raduis: 50%;
+  align-items: flex-end;
+}
+.hero_description {
+    height: 200px;
+    width: 20%;
+
+}
+.card {
+  background-color: #FEE3EC;
+  height: 500;
+  width: 160;
+  background-position: center;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.text {
+  position:absolute;
+}
+.first_card {
+  margin-right: 800px;
+  border: 10px;
+  border-color: black;
+}
+.third_card {
+  margin-left: 400px;
+  border: 10px;
+  border-color: black;
+}
+.second_card {
+  border: 10px;
+  border-color: black;
+}
+
+.zomato_phone {
+  background-color: #FFE3E3;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  gap: 100px;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+
+}
+.zomato_phn {
+  display: block;
+  height: 500px;
+  width: 270px;
+  background-position: center;
+  position: relative;
+  margin: 20px;
+  margin-left: 100px;
+}
+.x {
+  position: relative;
+  margin-left: 90px;
+  margin-right: 0px;
+}
+
+.footer {
+
+
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 500px;
+  align-items: baseline;
+  justify-content: center;
+}
+.insta {
+  height: 50px;
+  width: 50px;
+  font-size: 50px;
+  margin: 20px;
+}
+.facebook {
+  height: 50px;
+  width: 50px;
+  font-size: 50px;
+  margin: 20px;
+}
+.twitter {
+  height: 50px;
+  width: 50px;
+  font-size: 50px;
+  margin: 20px;
+}
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+}
+
+
+.logo {
+  width: 40px;
+  height: 50px;
+}
